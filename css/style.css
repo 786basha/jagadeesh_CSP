@@ -96,6 +96,10 @@ section h2{
     .art .txt{
         width: 100%;
     }
+    .art img{
+        width: 70%;
+        height: 50%;
+    }
 
     .art{
         display: flex;
