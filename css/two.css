@@ -27,14 +27,17 @@
     section h2{
         margin: 10px;
     }
-    .art{
+    .art, .imp, .box{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
     }
-    .art img{
+    .art img, .imp img, .box img{
         width: 400px;height: 250px;
+    }
+    .art .txt, .imp .txt, .box .txt{
+        padding: 10px;
     }
 
 }
