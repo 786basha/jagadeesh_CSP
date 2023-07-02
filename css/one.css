@@ -117,7 +117,7 @@ header .top{
     padding: 0;
     position: relative;
     display: flex;
-    top: -175px;
+    top: -195px;
     align-items:end;
     justify-content: end;
     /* display: inline-block; */
