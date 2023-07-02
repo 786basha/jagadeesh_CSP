@@ -4,6 +4,7 @@
 
 .p1{
     width: 100vw;
+    overflow-x: hidden;
     height: fit-content;
     background-color: rgb(36, 21, 21);
 }
@@ -11,6 +12,29 @@
 
 @media only screen and (max-width:550px) {
     .p1{
-        background-color: lightgreen;
+        background-color: transparent;
     }
+
+    header h2{
+        margin: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+    section{
+        text-align: center;
+        padding: 10px;
+    }
+    section h2{
+        margin: 10px;
+    }
+    .art{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .art img{
+        width: 400px;height: 250px;
+    }
+
 }
