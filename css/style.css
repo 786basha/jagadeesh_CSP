@@ -99,6 +99,7 @@ section h2{
     .art img{
         width: 70%;
         height: 50%;
+        margin: auto;
     }
 
     .art{
@@ -111,7 +112,7 @@ section h2{
         justify-content: center;
     }
     .box .txt , .imp .txt{
-        width: 100%;
+        width: 80vw;
         padding: 15px;
     }
 }
