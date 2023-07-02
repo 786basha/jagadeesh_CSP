@@ -97,8 +97,8 @@ section h2{
         width: 100%;
     }
     .art img{
-        width: 70%;
-        height: 50%;
+        width: 300px;
+        height: 250px;
         margin: auto;
     }
 
@@ -108,10 +108,7 @@ section h2{
         align-items: center;
         justify-content: center;
     }
-    .box, .imp{
-        align-items: center;
-        justify-content: center;
-    }
+
     .box .txt , .imp .txt{
         width: 80vw;
         padding: 15px;
