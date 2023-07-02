@@ -86,7 +86,7 @@ section h2{
     width: 70%;
 }
 
-@media only screen and (max-width:550px) {
+@media only screen and (max-width:480px) {
     header h1{
         font-size: 25px;
     }
