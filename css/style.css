@@ -102,7 +102,7 @@ section h2{
         margin: auto;
     }
 
-    .art{
+    .art , .box , .imp{
         display: flex;
         align-items: center;
         justify-content: center;
