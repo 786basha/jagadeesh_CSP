@@ -35,6 +35,7 @@
     }
     .art img, .imp img, .box img{
         width: 400px;height: 250px;
+        padding: 10px;
     }
     .art .txt, .imp .txt, .box .txt{
         padding: 10px;
