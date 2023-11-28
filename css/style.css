@@ -87,6 +87,7 @@ section{
     /* border: 1px solid black; */
     background-color: rgb(255, 255, 255);
     opacity: 0.7;
+    overflow-wrap: normal;
 }
 .p2{
     width: 100vw;
@@ -113,7 +114,7 @@ section{
     
 }
 
-.profile-box {
+.profile-box, section {
     
     opacity: 0.7;
     width: 700px;
@@ -129,7 +130,11 @@ h1 {
     font-size: 24px;
     margin-bottom: 10px;
 }
-
+section img{
+    height: 180px;width: 180px;
+    padding: 10px;
+    margin:auto 20%;
+}
 /* Style the image */
 img {
     width: 100px;
@@ -191,7 +196,12 @@ p {
         margin-bottom: 10px;
         margin: 10px auto;
     }
-
+    section{
+        width: auto;
+    }
+    section img{
+        margin: auto;
+    }
     /* Dropdown Button */
 .dropbtn {
     visibility: visible;
